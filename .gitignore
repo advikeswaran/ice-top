@@ -1,0 +1,13 @@
+# generated figures -- do not commit, they bloat the repo
+figures/
+*.png
+*.pdf
+
+# notebook noise
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+*.backup-*.ipynb
+
+# data (large, lives in ~/DataFiles and ~/Downloads)
+*.nc
+*.mat
