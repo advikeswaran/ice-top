@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/advik/DataFiles/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 /private/tmp/claude-501/-Users-advik-ice-top/ead390ab-69a9-4521-9461-6f584a6a7d7c/scratchpad/cmp2.py)",
+      "Bash(python3 scripts/make_victoria_limit.py)",
+      "Bash(rm -f figures/*.png figures/*.pdf)",
+      "Bash(python3 scripts/map_regions.py)",
+      "Bash(python3 scripts/analyse_pca_antarctica.py)",
+      "Bash(sed -i '' 's|^python scripts/map_regions.py             # ~30 s|python scripts/map_regions.py             # ~60 s|' README.md)"
+    ]
+  }
+}
